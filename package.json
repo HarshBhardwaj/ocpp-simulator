@@ -1,0 +1,24 @@
+{
+  "name": "ocpp-simulator",
+  "version": "1.0.0",
+  "description": "OCPP1.6 simulator that mimics communication between a charger and central system",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn build-simulator && yarn build-wui",
+    "start": "yarn start-wui & yarn start-simulator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshBhardwaj/ocpp-simulator.git"
+  },
+  "keywords": [
+    "ocpp-simulator"
+  ],
+  "author": "Harsh Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshBhardwaj/ocpp-simulator/issues"
+  },
+  "homepage": "https://github.com/HarshBhardwaj/ocpp-simulator#readme"
+}
